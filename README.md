@@ -48,7 +48,7 @@ Workshop3
 │   ├── docker-compose.yml        # Archivo de configuración de Docker Compose
 │   ├── docker-secrets            # Archivo de secretos de Docker
 │   └── docker-secrets-pgadmin    # Secretos específicos para pgAdmin
-├── document
+├── document                      # Documento final en PDF
 │   └── kafka_app                 # Aplicación relacionada con Kafka
 │       ├── consumer.py           # Script del consumidor en arquitectura de microservicios
 │       ├── main.py               # Script principal para Kafka
