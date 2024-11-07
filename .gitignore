@@ -1,5 +1,5 @@
 .venv
-WORKSHOP3/.vscode
+.vscode
 .env
 docker/docker-secrets
 docker/docker-secrets-pgadmin
