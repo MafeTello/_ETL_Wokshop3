@@ -1,6 +1,7 @@
-* .venv
-* .vscode
-* docker-secrets
-* docker-secrets-pgadmin
-* postgres-db-volume-kafka
-* pgadmin-workshop3
+.venv
+WORKSHOP3/.vscode
+.env
+docker/docker-secrets
+docker/docker-secrets-pgadmin
+docker/postgres-db-volume-kafka
+docker/pgadmin-workshop3
