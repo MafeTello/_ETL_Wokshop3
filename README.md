@@ -49,17 +49,17 @@ Workshop3
 │   ├── docker-secrets            # Archivo de secretos de Docker
 │   └── docker-secrets-pgadmin    # Secretos específicos para pgAdmin
 ├── document                      # Documento final en PDF
-│   └── kafka_app                 # Aplicación relacionada con Kafka
-│       ├── consumer.py           # Script del consumidor en arquitectura de microservicios
-│       ├── main.py               # Script principal para Kafka
-│       └── producer.py           # Script del productor en arquitectura de microservicios
+├── kafka_app                     # Aplicación relacionada con Kafka
+│   ├── consumer.py               # Script del consumidor 
+│   ├── main.py                   # Script principal para Kafka
+│   └── producer.py               # Script del productor
 ├── Model                         # Carpeta para almacenar el modelo entrenado
 │   └── model.pkl                 # Archivo pickle con el modelo entrenado
 ├── notebooks                     # Notebooks Jupyter para análisis de datos
 │   ├── 001_EDA_mt.ipynb          # Notebook para análisis exploratorio de datos (EDA)
-│   ├── 002_model_training.ipynb  # Notebook para entrenamiento de modelos
-│   └── 003_score_metrics.ipynb   # Notebook para evaluación de métricas del modelo
-├── .gitignore                    # Archivo para ignorar ciertos archivos en control de versiones
+│   └── 002_model_training.ipynb  # Notebook para entrenamiento de modelos
+├── .env                          # Credenciales para la base de datos
+├── .gitignore                    # Archivo para ignorar ciertos archivos con credenciales y demás
 └── README.md                     # Archivo README con información del proyecto
 
 ```
