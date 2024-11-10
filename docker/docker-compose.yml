@@ -50,6 +50,8 @@ services: # Containers to run
       - ./docker-secrets-pgadmin
     ports:
       - 6080:80
+    networks:
+      - kafka_workshop3
     links:
       - postgresdb_workshop3
 
