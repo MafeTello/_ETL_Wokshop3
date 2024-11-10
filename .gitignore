@@ -5,3 +5,5 @@ docker/docker-secrets
 docker/docker-secrets-pgadmin
 docker/postgres-db-volume-kafka
 docker/pgadmin-workshop3
+database/__pycache__
+kafka_app/__pycache__
